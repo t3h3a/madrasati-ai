@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <title>مدرستي - مدرسة وادي موسى الثانوية الشاملة للبنين</title>
+
+    <!-- الخطوط -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+    <!-- أيقونات -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+    <!-- الهيدر -->
+    <header class="main-header">
+        <div class="container header-inner">
+
+            <div class="brand-area">
+                <div class="school-logo">
+                    <img src="assets/images/school-logo.png" alt="شعار المدرسة">
+                </div>
+                <div class="brand-text">
+                    <span class="brand-top">مدرستي</span>
+                    <span class="brand-sub">مدرسة وادي موسى الثانوية الشاملة للبنين</span>
+                </div>
+            </div>
+
+            <nav class="main-nav">
+                <a href="index.html" class="active">الرئيسية</a>
+                <a href="gallery.html">معرض الإنجازات</a>
+                <a href="btec.html">نظام BTEC</a>
+                <a href="ai.html">المساعد الذكي</a>
+            </nav>
+
+            <div class="pearson-badge">
+                <img src="assets/images/pearson-logo.png" alt="Pearson">
+                <span>BTEC Pearson</span>
+            </div>
+
+            <button class="nav-toggle" id="navToggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+    </header>
+
+    <!-- قسم الهيرو -->
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="hero-slide active" style="background-image:url('assets/images/head.jpg');"></div>
+            <div class="hero-slide" style="background-image:url('assets/images/hero2.jpg');"></div>
+            <div class="hero-slide" style="background-image:url('assets/images/hero3.jpg');"></div>
+        </div>
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content fade-in-up">
+            <h1>
+                أهلاً بك في <span>مدرستي</span>
+                <br>مسار مميز مع نظام <span>BTEC Pearson</span>
+            </h1>
+
+            <p class="hero-subtitle">
+                منصة تعليمية حديثة في وادي موسى توفر بيئة تجمع بين التعليم الأردني
+                ونظام التعليم المهني البريطاني BTEC.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="ai.html" class="btn btn-primary">
+                    <i class="fa-solid fa-robot"></i>
+                    جرّب المساعد الذكي
+                </a>
+                <a href="#about" class="btn btn-ghost">
+                    <i class="fa-solid fa-circle-info"></i>
+                    تعرّف على مدرستنا
+                </a>
+            </div>
+
+            <div class="hero-shortcuts">
+                <a href="btec.html" class="chip">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    كل ما تحتاجه عن BTEC
+                </a>
+                <a href="gallery.html" class="chip">
+                    <i class="fa-solid fa-photo-film"></i>
+                    شاهد إنجازات طلابنا
+                </a>
+            </div>
+
+            <div class="scroll-indicator">مرر للأسفل <i class="fa-solid fa-chevron-down"></i></div>
+        </div>
+    </section>
+
+    <!-- مميزات -->
+    <section class="features">
+        <div class="container">
+
+            <h2 class="section-title">لماذا <span>مدرستي؟</span></h2>
+
+            <div class="features-grid">
+
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-computer"></i></div>
+                    <h3>تخصص تكنولوجيا المعلومات</h3>
+                    <p>مختبرات مجهزة بالكامل بأحدث تقنيات البرمجة والشبكات.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-hotel"></i></div>
+                    <h3>تخصص الضيافة الفندقية</h3>
+                    <p>تدريب عملي لمحاكاة بيئة الفنادق الحقيقية.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-robot"></i></div>
+                    <h3>مساعد ذكي خاص بالمدرسة</h3>
+                    <p>نظام ذكاء اصطناعي مطور خصيصاً للطلاب وللإجابة على أسئلتهم.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- عن المدرسة -->
+    <section id="about" class="about">
+        <div class="container about-inner">
+
+            <div class="about-text">
+                <h2 class="section-title">مدرسة <span>وادي موسى الثانوية الشاملة للبنين</span></h2>
+
+                <p>
+                    تقع المدرسة في مدينة وادي موسى – لواء البتراء، وتقدم برامج ثانوية عامة
+                    ومسار مهني مميز ضمن نظام BTEC البريطاني.
+                </p>
+
+                <a href="https://web.facebook.com/profile.php?id=100064866513168"
+                   target="_blank"
+                   class="btn btn-primary about-btn">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    صفحة المدرسة على فيسبوك
+                </a>
+            </div>
+
+            <div class="about-image">
+                <div class="about-photo" style="background-image:url('assets/images/gallery1.jpg');"></div>
+                <div class="about-tag">
+                    <i class="fa-solid fa-award"></i>
+                    إنجازات طلاب RoboChamps
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-inner">
+            <div>© <span id="year"></span> مدرسة وادي موسى الثانوية الشاملة للبنين</div>
+            <div class="footer-dev">تطوير الموقع بواسطة <strong>المهندس ثائر محمد السلامين</strong></div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
