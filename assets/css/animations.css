@@ -1,0 +1,50 @@
+/* ===================================
+   🎞️ Animations.css — تأثيرات الحركة
+   =================================== */
+
+/* ظهر تدريجي */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* نبض */
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+/* طفو */
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-7px); }
+}
+
+/* حركة سهم النزول */
+@keyframes pulse-down {
+    0%, 100% { transform: translateY(0); opacity: 0.6; }
+    50% { transform: translateY(6px); opacity: 1; }
+}
+
+/* ظهور مع توسع */
+@keyframes pop {
+    0% { transform: scale(0.6); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+/* تحويم الكروت */
+.hover-float:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* للكروت المتحركة تلقائياً */
+.auto-float {
+    animation: float 4s ease-in-out infinite;
+}
+
+/* أي عنصر يظهر مع دخول الصفحة */
+.reveal {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}

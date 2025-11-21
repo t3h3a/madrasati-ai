@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <title>معرض إنجازات المدرسة - مدرستي</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/animations.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body>
+
+<header class="main-header">
+    <div class="container header-inner">
+        <div class="brand-area">
+            <div class="school-logo">
+                <img src="assets/images/school-logo.png" alt="شعار المدرسة">
+            </div>
+            <div class="brand-text">
+                <span class="brand-top">مدرستي</span>
+                <span class="brand-sub">مدرسة وادي موسى الثانوية الشاملة للبنين</span>
+            </div>
+        </div>
+
+        <nav class="main-nav">
+            <a href="index.html">الرئيسية</a>
+            <a href="gallery.html" class="active">معرض الإنجازات</a>
+            <a href="btec.html">نظام BTEC</a>
+            <a href="ai.html">المساعد الذكي</a>
+        </nav>
+
+        <div class="pearson-badge">
+            <img src="assets/images/pearson-logo.png" alt="Pearson">
+            <span>BTEC Pearson</span>
+        </div>
+
+        <button class="nav-toggle" id="navToggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </div>
+</header>
+
+<main class="page-main with-top-space">
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="section-title">معرض <span>إنجازات RoboChamps</span></h1>
+            <p class="section-subtitle">
+                مجموعة من الصور التي توثّق مشاركة فريق المدرسة RoboChamps في بطولة الروبوت WRO
+                وتمثيل المدرسة والوطن بكل فخر.
+            </p>
+        </div>
+    </section>
+
+    <section class="gallery-grid-section">
+        <div class="container gallery-grid">
+            <!-- بطاقة 1 -->
+            <article class="gallery-card">
+                <div class="gallery-image">
+                    <img src="assets/gallery/gallery1.jpg" alt="تكريم فريق RoboChamps في حفل رسمي">
+                </div>
+                <div class="gallery-body">
+                    <h3>تكريم فريق RoboChamps في حفل رسمي</h3>
+                    <p>
+                        بتوجيه وتقدير من مدير المدرسة السيد عبد الله المشاعلة، تم اليوم تكريم فريق المدرسة
+                        <strong>RoboChamps</strong> تقديراً لمشاركته الفاعلة في بطولة الروبوت
+                        <strong>WRO</strong> التي أُقيمت برعاية كريمة من سمو الأمير رعد بن فيصل.
+                    </p>
+                </div>
+            </article>
+
+            <!-- بطاقة 2 -->
+            <article class="gallery-card">
+                <div class="gallery-image">
+                    <img src="assets/gallery/gallery2.jpg" alt="تكريم الطلبة في ساحة المدرسة">
+                </div>
+                <div class="gallery-body">
+                    <h3>تكريم الطلبة في ساحة المدرسة</h3>
+                    <p>
+                        شمل التكريم الطالبين <strong>محمد الجوارنة</strong> و<strong>كريم الحسنات</strong>،
+                        إلى جانب المشرف عليهم المعلم <strong>جودت النوافلة</strong>، تقديراً لجهودهم
+                        وتميّزهم في المنافسة وتمثيل مدرسة وادي موسى بأفضل صورة.
+                    </p>
+                </div>
+            </article>
+
+            <!-- بطاقة 3 -->
+            <article class="gallery-card">
+                <div class="gallery-image">
+                    <img src="assets/gallery/gallery3.jpg" alt="اعتماد الفريق لتمثيل الأردن عالميًا">
+                </div>
+                <div class="gallery-body">
+                    <h3>تمثيل الأردن في البطولة العالمية</h3>
+                    <p>
+                        نال فريق <strong>RoboChamps</strong> شرف اعتمادهم رسميًا لتمثيل الأردن ضمن الوفد
+                        المشارك في البطولة العالمية للروبوت، ليكونوا نموذجاً ملهِمًا لطلاب مسار BTEC
+                        في مجال تكنولوجيا المعلومات والروبوت.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+</main>
+
+<footer class="main-footer">
+    <div class="container footer-inner">
+        <div>© <span id="year"></span> مدرسة وادي موسى الثانوية الشاملة للبنين</div>
+        <div class="footer-dev">
+            تطوير المساعد والموقع بواسطة
+            <strong>المهندس ثائر محمد السلامين</strong>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
